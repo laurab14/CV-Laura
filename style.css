@@ -1,0 +1,55 @@
+#Container1{
+  height: 35em;
+  width: 100%;
+}
+.Menu1{
+  color: #c29530;
+font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+
+.jumbotron {
+  background-image: url("desktop-1985856_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35em;
+  text-align: center;
+}
+
+#Titre1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  position: relative;
+  top: 30%;
+  font-size:5.5em;
+  color: #642423;
+text-shadow:
+#e5e3e4 1px 1px,
+ #e5e3e4 -1px 1px,
+ #e5e3e4 -1px -1px,
+ #e5e3e4 1px -1px;
+}
+
+
+#Citation {
+font-weight: bold;
+  text-align: right;
+  position: relative;
+  top:5%;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+    color: #642423;
+text-shadow:
+#e5e3e4 1px 1px,
+ #e5e3e4 -1px 1px,
+ #e5e3e4 -1px -1px,
+ #e5e3e4 1px -1px;
+}
+
+#Logiciels{
+  position: relative;
+  top: ;
+}
