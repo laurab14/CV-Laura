@@ -18,7 +18,7 @@
 }
 
 .Menu1 {
-  color: #c29530;
+  color: #642423;
   font-family: 'Lobster';
   font-weight: bold;
   font-size: 1.5em;
@@ -27,7 +27,7 @@
 }
 
 .Menu1:hover{
-  color: #642423;
+    color: #c29530;
   font-family: 'Lobster';
   font-weight: bold;
   font-size: 1.5em;
@@ -35,26 +35,22 @@
   word-spacing: .1rem;
 }
 
-.Titre1, Image1 {
-  position: absolute;
-  padding-top: 5rem;
-  padding-left: 10rem;
-}
-
-.Titre1 {
-  z-index: 1;
+  .Titre2 {
   font-family: 'Lobster', cursive;
-  font-size: 2.5em;
+  font-size: 8.0vw;
   color: #642423;
   text-shadow:
     #e5e3e4 1px 1px,
     #e5e3e4 -1px 1px,
     #e5e3e4 -1px -1px,
     #e5e3e4 1px -1px;
-}
+    margin-top: 30vw;
+
+  }
+
 
 .Image1 {
-  background-image: url(desktop-1985856_1280.jpg);
+  position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -65,9 +61,8 @@
   font-weight: bold;
   text-align: right;
   position: relative;
-  top: 5%;
   font-family: 'Lobster', cursive;
-  font-size: 1.3em;
+  font-size: 2.4vw;
   letter-spacing: .1rem;
   word-spacing: .1rem;
   color: #642423;
@@ -76,6 +71,7 @@
     #e5e3e4 -1px 1px,
     #e5e3e4 -1px -1px,
     #e5e3e4 1px -1px;
+    padding-top: 30vw
 }
 
 .Egauche, .Cgauche, .Cdroite, .Edroite {
@@ -97,10 +93,16 @@
 }
 
 .MonParcours, .Compétences{
-  text-align: justify;
-    font-family: 'Lobster', cursive;
-      font-size: 1.3em;
+  text-align:center
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
 }
 .carousel-inner{
-background-color:#e5e3e4;
+  background-color: #e5e3e4;
+  color: #642423;
+  text-shadow:
+    #e5e3e4 1px 1px,
+    #e5e3e4 -1px 1px,
+    #e5e3e4 -1px -1px,
+    #e5e3e4 1px -1px;
 }
