@@ -1,53 +1,49 @@
 @keyframes AnimIcons {
-  0%{
+  0% {
     transform: rotateY(0deg);
   }
 
-  50%{
+  50% {
     transform: rotateY(180deg);
   }
 
-  100%{
-  transform: rotateY(360deg);
+  100% {
+    transform: rotateY(360deg);
   }
-
 }
 
-.imageicons{
+.imageicons {
   animation: AnimIcons 6s infinite;
 }
 
 .Menu1 {
   color: #642423;
-  font-family: 'Lobster';
+  font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 3vw;
   letter-spacing: .1rem;
   word-spacing: .1rem;
 }
 
-.Menu1:hover{
-    color: #c29530;
-  font-family: 'Lobster';
+.Menu1:hover {
+  color: #c29530;
+  font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size: 1.5em;
   letter-spacing: .1rem;
   word-spacing: .1rem;
 }
 
-  .Titre2 {
+.Titre2 {
   font-family: 'Lobster', cursive;
-  font-size: 8.0vw;
+  font-size: 8vw;
   color: #642423;
   text-shadow:
     #e5e3e4 1px 1px,
     #e5e3e4 -1px 1px,
     #e5e3e4 -1px -1px,
     #e5e3e4 1px -1px;
-    margin-top: 30vw;
-
-  }
-
+  margin-top: 27vw;
+}
 
 .Image1 {
   position: absolute;
@@ -61,8 +57,8 @@
   font-weight: bold;
   text-align: right;
   position: relative;
-  font-family: 'Lobster', cursive;
-  font-size: 2.4vw;
+  font-family: 'Satisfy', cursive;
+  font-size: 3vw;
   letter-spacing: .1rem;
   word-spacing: .1rem;
   color: #642423;
@@ -71,38 +67,103 @@
     #e5e3e4 -1px 1px,
     #e5e3e4 -1px -1px,
     #e5e3e4 1px -1px;
-    padding-top: 30vw
+  padding-top: 30vw
 }
 
 .Egauche, .Cgauche, .Cdroite, .Edroite {
-    background-color: #e5e3e4;
+  background-color: #e5e3e4;
 }
 
-.Logiciels1{
-  font-family: 'Lobster', cursive;
+.Logiciels1 {
+  font-family: 'Satisfy', cursive;
   color: #642423;
   text-align: center;
   padding-top: 2rem;
-  font-size: 4rem;
+  font-size: 5vw;
+  font-weight: bold;
 }
 
-.gauche, .droite{
+.gauche, .droite {
   text-align: center;
   padding-top: 2rem;
   background-color: white;
 }
 
-.MonParcours, .Compétences{
-  text-align:center
-  font-family: 'Lobster', cursive;
-  font-size: 1.3em;
+.MonParcours, .Compétences1 {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 4vw;
+  font-weight: bold;
+  color: #642423;
 }
-.carousel-inner{
+
+.Compétences2 {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #c29530;
+}
+
+.carousel-inner, .carousel-item {
   background-color: #e5e3e4;
+}
+
+.question {
+  font-family: 'Satisfy', cursive;
   color: #642423;
   text-shadow:
-    #e5e3e4 1px 1px,
-    #e5e3e4 -1px 1px,
-    #e5e3e4 -1px -1px,
-    #e5e3e4 1px -1px;
+    #e5e3e4 2px 2px,
+    #e5e3e4 -2px 2px,
+    #e5e3e4 -2px -2px,
+    #e5e3e4 2px -2px;
+  font-size: 6vw;
+}
+
+.mailto {
+  color: red;
+}
+
+.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  /* change this to change the size*/
+}
+
+.github {
+  color: black;
+}
+
+#headingOne, #headingTwo {
+  background-color: #e5e3e4;
+}
+
+#titreformation, #titreemplois {
+  font-family: 'Satisfy', cursive;
+  color: #642423;
+  font-size: 4vw;
+}
+
+#titreformation:hover, #titreemplois:hover {
+  color: #c29530;
+  font-weight: bold;
+}
+
+.MeContacter {
+  font-size: 2vw;
+  color: #642423;
+}
+
+.card-body {
+  font-family: 'Satisfy', cursive;
+  color: #c29530;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.fa-check-square-o {
+  color: #642423;
 }
